@@ -1,0 +1,8 @@
+services:
+    backend: 
+        build:
+            args: 
+                stage: production
+        ports:
+            args:
+                port: 7000

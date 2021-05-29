@@ -1,0 +1,9 @@
+services:
+    backend: 
+        build:
+            args: 
+                stage: development
+                port: 7001
+        ports: 
+          - "7001:7001"
+

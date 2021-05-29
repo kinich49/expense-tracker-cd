@@ -1,0 +1,16 @@
+version: '3'
+services:
+    backend: 
+        build:
+            dockerfile: Dockerfile
+            context: ../expense-tracker-rest
+        image: kinich49/expense-tracker:backend
+    # frontend:
+    #     build:
+    #         dockerfile: Dockerfile
+    #         context: ../expense-tracker-vue
+    #     image: kinich49/item-tracker:frontend
+    #     ports:
+    #         - "8080:4200" 
+    #     depends_on:
+    #         - backend
