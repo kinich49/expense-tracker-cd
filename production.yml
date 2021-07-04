@@ -3,6 +3,6 @@ services:
         build:
             args: 
                 stage: production
-        ports:
-            args:
                 port: 7000
+        ports: 
+          - "7000:7000"
