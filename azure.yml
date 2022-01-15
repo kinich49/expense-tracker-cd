@@ -1,0 +1,8 @@
+services:
+    backend: 
+        build:
+            args: 
+                stage: azure
+                port: 7000
+        ports: 
+          - "7000:7000"
