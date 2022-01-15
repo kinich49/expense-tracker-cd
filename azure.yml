@@ -4,5 +4,6 @@ services:
             args: 
                 stage: azure
                 port: 7000
+        image: kinich49/expense-tracker:backend-azure
         ports: 
           - "7000:7000"
