@@ -30,7 +30,7 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
       
       - name: Push backend
-        run: docker push kinich49/expense-tracker:backend-azure
+        run: docker push kinich49/expense-tracker-backend:latest-azure
   continous_delivery:
     runs-on: ubuntu-latest
     steps:
@@ -56,5 +56,5 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
       
       - name: Push backend
-        run: docker push kinich49/expense-tracker:backend    
+        run: docker push kinich49/expense-tracker-backend:latest
     

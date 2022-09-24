@@ -3,7 +3,7 @@ services:
         build:
             args: 
                 stage: azure
-                port: 8080
-        image: kinich49/expense-tracker:backend-azure
+                port: 7100
+        image: kinich49/expense-tracker-backend:latest-azure
         ports: 
-          - "8080:8080"
+          - "9100:9100"

@@ -3,7 +3,7 @@ services:
         build:
             args: 
                 stage: production
-                port: 7000
-        image: kinich49/expense-tracker:backend
+                port: 9000
+        image: kinich49/expense-tracker-backend:latest
         ports: 
-          - "7000:7000"
+          - "9000:9000"
